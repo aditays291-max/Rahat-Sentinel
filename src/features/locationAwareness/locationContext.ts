@@ -15,10 +15,23 @@ let currentUserLocation: UserLocation | null = null;
 
 /**
  * Retrieves the current known location of the user.
+ * In DEV mode, returns a fixed location for deterministic demos.
+ * In production, returns the real GPS location.
  *
  * @returns UserLocation | null
  */
 export const getCurrentUserLocation = (): UserLocation | null => {
+    // DEV-only override: Use fixed Kathmandu location for reliable demos
+    // This code is completely stripped from production builds
+    if (__DEV__) {
+        const { getDevLocationOrNull } = require('../../dev/devLocation');
+        const devLocation = getDevLocationOrNull();
+        if (devLocation) {
+            return devLocation;
+        }
+    }
+
+    // Production path: Return real GPS location
     return currentUserLocation;
 };
 
