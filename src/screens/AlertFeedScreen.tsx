@@ -23,6 +23,23 @@ export const AlertFeedScreen = () => {
 
     return (
         <View style={styles.container}>
+            {/* DEV-only: Diagnostics button */}
+            {__DEV__ && (
+                <Pressable
+                    style={styles.devButton}
+                    onPress={() => navigation.navigate('Diagnostics')}
+                >
+                    <Text style={styles.devButtonText}>🔧 Diagnostics</Text>
+                </Pressable>
+            )}
+
+            {/* Empty State */}
+            {visible.length === 0 && (
+                <View style={styles.emptyState}>
+                    <Text style={styles.emptyText}>No active alerts</Text>
+                </View>
+            )}
+
             {/* List of Visible Alerts */}
             {visible.map((alert) => {
                 const meta = HAZARD_METADATA[alert.hazardLevel];
@@ -55,6 +72,27 @@ const styles = StyleSheet.create({
     container: {
         flex: 1,
         padding: 20,
+    },
+    devButton: {
+        backgroundColor: '#FFD700',
+        padding: 10,
+        borderRadius: 5,
+        marginBottom: 15,
+        alignSelf: 'flex-start',
+    },
+    devButtonText: {
+        fontSize: 12,
+        fontWeight: 'bold',
+        color: '#000',
+    },
+    emptyState: {
+        flex: 1,
+        justifyContent: 'center',
+        alignItems: 'center',
+    },
+    emptyText: {
+        fontSize: 16,
+        color: '#999',
     },
     alertItem: {
         marginBottom: 10,
