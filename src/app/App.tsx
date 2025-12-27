@@ -1,14 +1,28 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { NavigationContainer } from '@react-navigation/native';
 import { SafeAreaProvider } from 'react-native-safe-area-context';
 import { RootNavigator } from './navigation/RootNavigator';
+import { useAlertStore } from '../store/alertStore';
+import { DEMO_ALERTS } from '../dev/demoAlerts';
+import { DemoControlPanel } from '../dev/DemoControlPanel';
 
 const App = () => {
+    // DEV-only: Seed demo alerts on app start
+    useEffect(() => {
+        if (__DEV__) {
+            const addAlert = useAlertStore.getState().addAlert;
+            DEMO_ALERTS.forEach((alert) => addAlert(alert));
+            console.log('[DEV] Seeded', DEMO_ALERTS.length, 'demo alerts');
+        }
+    }, []); // Empty deps = runs once on mount
+
     return (
         <SafeAreaProvider>
             <NavigationContainer>
                 <RootNavigator />
             </NavigationContainer>
+            {/* DEV-only: Demo control panel for live alert injection */}
+            {__DEV__ && <DemoControlPanel />}
         </SafeAreaProvider>
     );
 };
