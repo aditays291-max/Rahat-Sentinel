@@ -1,13 +1,29 @@
 pluginManagement {
+    includeBuild("C:/Users/Abhishek Giri/Desktop/Rahat_Broken/node_modules/@react-native/gradle-plugin")
     repositories {
-        gradlePluginPortal()
         google()
         mavenCentral()
+        gradlePluginPortal()
     }
 }
 
+plugins {
+    id("com.facebook.react.settings")
+}
+
+includeBuild("C:/Users/Abhishek Giri/Desktop/Rahat_Broken/node_modules/@react-native/gradle-plugin") {
+    dependencySubstitution {
+        substitute(module("com.facebook.react:react-native-gradle-plugin"))
+            .using(project(":react-native-gradle-plugin"))
+    }
+}
+
+def reactSettings = extensions.findByType(com.facebook.react.ReactSettingsExtension.class)
+if (reactSettings != null) {
+    reactSettings.autolinkLibrariesFromCommand()
+} else {
+    println "ReactSettingsExtension not found!"
+}
+
 rootProject.name = "Rahat"
-
 include(":app")
-
-includeBuild("../node_modules/@react-native/gradle-plugin")

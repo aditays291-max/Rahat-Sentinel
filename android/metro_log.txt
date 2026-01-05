@@ -1,0 +1,97 @@
+
+Welcome to React Native v0.81
+Starting dev server on http://localhost:8081
+
+
+                        ▒▒▓▓▓▓▒▒
+                     ▒▓▓▓▒▒░░▒▒▓▓▓▒
+                  ▒▓▓▓▓░░░▒▒▒▒░░░▓▓▓▓▒
+                 ▓▓▒▒▒▓▓▓▓▓▓▓▓▓▓▓▓▒▒▒▓▓
+                 ▓▓░░░░░▒▓▓▓▓▓▓▒░░░░░▓▓
+                 ▓▓░░▓▓▒░░░▒▒░░░▒▓▒░░▓▓
+                 ▓▓░░▓▓▓▓▓▒▒▒▒▓▓▓▓▒░░▓▓
+                 ▓▓░░▓▓▓▓▓▓▓▓▓▓▓▓▓▒░░▓▓
+                 ▓▓▒░░▒▒▓▓▓▓▓▓▓▓▒░░░▒▓▓
+                  ▒▓▓▓▒░░░▒▓▓▒░░░▒▓▓▓▒
+                     ▒▓▓▓▒░░░░▒▓▓▓▒
+                        ▒▒▓▓▓▓▒▒
+
+
+ WARN  the transform cache was reset.
+                Welcome to Metro v0.83.3
+              Fast - Scalable - Integrated
+
+
+ INFO  Connection established to app='com.rahat.app' on device='sdk_gphone64_x86_64 - 16 - API 36'.
+ INFO  Connection established to app='com.rahat.app' on device='sdk_gphone64_x86_64 - 16 - API 36'.
+ INFO  [1m[7m💡 JavaScript logs have moved![22m They can now be viewed in React Native DevTools. Tip: Type [1mj[22m in the terminal to open (requires Google Chrome or Microsoft Edge).[27m
+ INFO  Connection established to app='com.rahat.app' on device='sdk_gphone64_x86_64 - 16 - API 36'.
+ INFO  Connection established to app='com.rahat.app' on device='sdk_gphone64_x86_64 - 16 - API 36'.
+ INFO  Dev server ready. Press Ctrl+C to exit.
+ INFO  Key commands available:
+
+   r  - reload app(s)
+   d  - open Dev Menu
+   j  - open DevTools
+
+ INFO  Connection established to app='com.rahat.app' on device='moto g45 5G - 15 - API 35'.
+ BUNDLE  ../index.js ▓▓░░░░░░░░░░░░░░ 17.0% (11/103)
+ BUNDLE  ../index.js ▓▓▓▓░░░░░░░░░░░░ 30.6% (172/329)
+ BUNDLE  ../index.js ▓▓▓▓▓▓▓▓▓▓░░░░░░ 65.8% (464/589)
+ INFO  Connection closed to device='sdk_gphone64_x86_64 - 16 - API 36' for app='com.rahat.app' with code='1006' and reason=''.
+ INFO  Connection closed to device='sdk_gphone64_x86_64 - 16 - API 36' for app='com.rahat.app' with code='1006' and reason=''.
+ INFO  Connection closed to device='sdk_gphone64_x86_64 - 16 - API 36' for app='com.rahat.app' with code='1006' and reason=''.
+ INFO  Connection closed to device='sdk_gphone64_x86_64 - 16 - API 36' for app='com.rahat.app' with code='1006' and reason=''.
+ BUNDLE  ../index.js ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓░ 94.4% (687/707)
+ INFO  Connection established to app='com.rahat.app' on device='sdk_gphone64_x86_64 - 16 - API 36'.
+ BUNDLE  ../index.js ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓░ 99.2% (796/809)
+ BUNDLE  ../index.js ░░░░░░░░░░░░░░░░ 0.0% (0/1)
+ BUNDLE  ../index.js ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓░ 99.5% (813/815)
+ BUNDLE  ../index.js ▓▓▓▓▓▓▓▓░░░░░░░░ 55.9% (270/361)
+ BUNDLE  ../index.js ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓░ 99.9% (825/825)
+ BUNDLE  ../index.js ▓▓▓▓▓▓▓▓▓▓▓▓░░░░ 76.0% (372/444)
+ BUNDLE  ../index.js 
+ BUNDLE  ../index.js ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓░ 94.9% (763/796)
+ BUNDLE  ../index.js 
+ BUNDLE  ../index.js ░░░░░░░░░░░░░░░░ 0.0% (0/1)
+ BUNDLE  ../index.js 
+ INFO  Connection closed to device='sdk_gphone64_x86_64 - 16 - API 36' for app='com.rahat.app' with code='1006' and reason=''.
+ INFO  Connection established to app='com.rahat.app' on device='sdk_gphone64_x86_64 - 16 - API 36'.
+ BUNDLE  ../index.js 
+ BUNDLE  ../index.js ░░░░░░░░░░░░░░░░ 0.0% (0/1)
+ BUNDLE  ../index.js 
+ INFO  Connection closed to device='moto g45 5G - 15 - API 35' for app='com.rahat.app' with code='1006' and reason=''.
+ INFO  Connection established to app='com.rahat.app' on device='moto g45 5G - 15 - API 35'.
+ BUNDLE  ../index.js 
+ INFO  Connection closed to device='moto g45 5G - 15 - API 35' for app='com.rahat.app' with code='1006' and reason=''.
+ INFO  Connection established to app='com.rahat.app' on device='moto g45 5G - 15 - API 35'.
+ BUNDLE  ../index.js 
+ BUNDLE  ../index.js ░░░░░░░░░░░░░░░░ 0.0% (0/1)
+ BUNDLE  ../index.js 
+ INFO  Connection closed to device='sdk_gphone64_x86_64 - 16 - API 36' for app='com.rahat.app' with code='1006' and reason=''.
+ INFO  Connection closed to device='moto g45 5G - 15 - API 35' for app='com.rahat.app' with code='1006' and reason=''.
+ INFO  Connection established to app='com.rahat.app' on device='sdk_gphone64_x86_64 - 16 - API 36'.
+ BUNDLE  ../index.js 
+ ERROR  Error: Unable to resolve module ./stores/alertStore from C:\Users\Abhishek Giri\Desktop\Rahat_Broken\src\app\App.tsx: 
+
+None of these files exist:
+  * src\app\stores\alertStore(.android.js|.native.js|.js|.android.jsx|.native.jsx|.jsx|.android.json|.native.json|.json|.android.ts|.native.ts|.ts|.android.tsx|.native.tsx|.tsx)
+  * src\app\stores\alertStore
+   5 | import { NavigationContainer } from '@react-navigation/native';
+   6 | import RootNavigator from './navigation/RootNavigator';
+>  7 | import { alertStore } from './stores/alertStore';
+     |                             ^
+   8 | import DemoControlPanel from '../dev/DemoControlPanel';
+   9 |
+  10 | LogBox.ignoreLogs(['The result of getSnapshot should be cached', 'Open debugger to view warnings']);
+    at ModuleResolver.resolveDependency (C:\Users\Abhishek Giri\Desktop\Rahat_Broken\node_modules\metro\src\node-haste\DependencyGraph\ModuleResolution.js:136:15)
+    at DependencyGraph.resolveDependency (C:\Users\Abhishek Giri\Desktop\Rahat_Broken\node_modules\metro\src\node-haste\DependencyGraph.js:252:43)
+    at C:\Users\Abhishek Giri\Desktop\Rahat_Broken\node_modules\metro\src\lib\transformHelpers.js:163:21
+    at resolveDependencies (C:\Users\Abhishek Giri\Desktop\Rahat_Broken\node_modules\metro\src\DeltaBundler\buildSubgraph.js:43:25)
+    at visit (C:\Users\Abhishek Giri\Desktop\Rahat_Broken\node_modules\metro\src\DeltaBundler\buildSubgraph.js:81:30)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async Promise.all (index 0)
+    at async buildSubgraph (C:\Users\Abhishek Giri\Desktop\Rahat_Broken\node_modules\metro\src\DeltaBundler\buildSubgraph.js:105:3)
+    at async Graph._buildDelta (C:\Users\Abhishek Giri\Desktop\Rahat_Broken\node_modules\metro\src\DeltaBundler\Graph.js:163:22)
+    at async Graph.traverseDependencies (C:\Users\Abhishek Giri\Desktop\Rahat_Broken\node_modules\metro\src\DeltaBundler\Graph.js:50:19)
+ INFO  Connection closed to device='sdk_gphone64_x86_64 - 16 - API 36' for app='com.rahat.app' with code='1006' and reason=''.

@@ -7,24 +7,16 @@ import { useUserStore } from '../store/userStore';
 import { DEMO_ALERTS } from '../dev/demoAlerts';
 import { DEMO_USERS } from '../dev/demoUsers';
 import { DemoControlPanel } from '../dev/DemoControlPanel';
-import { LogBox } from 'react-native';
-
-// Suppress known warnings
-LogBox.ignoreLogs([
-    'The result of getSnapshot should be cached',
-    'Open debugger to view warnings',
-]);
 
 const App = () => {
-    // DEV-only: Seed demo alerts and users on app start
+    // DEV-only: Seed demo alerts on app start
     useEffect(() => {
         if (__DEV__) {
             const addAlert = useAlertStore.getState().addAlert;
-            const addUser = useUserStore.getState().addUser;
-
             DEMO_ALERTS.forEach((alert) => addAlert(alert));
             console.log('[DEV] Seeded', DEMO_ALERTS.length, 'demo alerts');
 
+            const addUser = useUserStore.getState().addUser;
             DEMO_USERS.forEach((user) => addUser(user));
             console.log('[DEV] Seeded', DEMO_USERS.length, 'demo users');
         }

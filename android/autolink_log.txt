@@ -1,0 +1,207 @@
+Initialized native services in: C:\Users\Abhishek Giri\.gradle\native
+Initialized jansi services in: C:\Users\Abhishek Giri\.gradle\native
+Found daemon DaemonInfo{pid=26068, address=[eb7bff0e-cbf2-40ab-9d57-21b753ae3ed5 port:54383, addresses:[/127.0.0.1]], state=Idle, lastBusy=1767553785706, context=DefaultDaemonContext[uid=c185a01a-62ea-4b2a-ac4e-ea734a20d968,javaHome=C:\Users\Abhishek Giri\.antigravity\extensions\redhat.java-1.50.0-win32-x64\jre\21.0.9-win32-x86_64,javaVersion=21,javaVendor=Eclipse Adoptium,daemonRegistryDir=C:\Users\Abhishek Giri\.gradle\daemon,pid=26068,idleTimeout=10800000,priority=NORMAL,applyInstrumentationAgent=true,nativeServicesMode=ENABLED,daemonOpts=-Xmx4096m,-Dfile.encoding=UTF-8,-Duser.country=IN,-Duser.language=en,-Duser.variant]} however its context does not match the desired criteria.
+JVM is incompatible.
+Wanted: DaemonRequestContext{jvmCriteria=C:\Program Files\Eclipse Adoptium\jdk-17.0.17.10-hotspot (no JDK specified, using current Java home), daemonOpts=[-Xmx4096m, -Dfile.encoding=UTF-8, -Duser.country=IN, -Duser.language=en, -Duser.variant], applyInstrumentationAgent=true, nativeServicesMode=ENABLED, priority=NORMAL}
+Actual: DefaultDaemonContext[uid=c185a01a-62ea-4b2a-ac4e-ea734a20d968,javaHome=C:\Users\Abhishek Giri\.antigravity\extensions\redhat.java-1.50.0-win32-x64\jre\21.0.9-win32-x86_64,javaVersion=21,javaVendor=Eclipse Adoptium,daemonRegistryDir=C:\Users\Abhishek Giri\.gradle\daemon,pid=26068,idleTimeout=10800000,priority=NORMAL,applyInstrumentationAgent=true,nativeServicesMode=ENABLED,daemonOpts=-Xmx4096m,-Dfile.encoding=UTF-8,-Duser.country=IN,-Duser.language=en,-Duser.variant]
+
+  Looking for a different daemon...
+The client will now receive all logging from the daemon (pid: 17552). The daemon log file: C:\Users\Abhishek Giri\.gradle\daemon\9.2.1\daemon-17552.out.log
+Starting 25th build in daemon [uptime: 22 mins 57.15 secs, performance: 100%, GC rate: 0.00/s, heap usage: 0% of 4 GiB]
+Using 16 worker leases.
+Operational build model parameters: {requiresToolingModels=false, parallelProjectExecution=true, configureOnDemand=true, configurationCache=false, configurationCacheParallelStore=false, configurationCacheParallelLoad=true, isolatedProjects=false, parallelProjectConfiguration=false, intermediateModelCache=false, parallelToolingApiActions=true, invalidateCoupledProjects=false, modelAsProjectDependency=false, resilientModelBuilding=false}
+Configuration on demand is an incubating feature.
+Now considering [C:\Users\Abhishek Giri\Desktop\Rahat_Broken\android, C:\Users\Abhishek Giri\Desktop\Rahat_Broken\node_modules\@react-native\gradle-plugin] as hierarchies to watch
+Watching the file system is configured to be enabled if available
+File system watching is active
+Starting Build
+Settings evaluated using settings file 'C:\Users\Abhishek Giri\Desktop\Rahat_Broken\android\settings.gradle'.
+Now considering [C:\Users\Abhishek Giri\Desktop\Rahat_Broken\node_modules\@react-native\gradle-plugin, C:\Users\Abhishek Giri\Desktop\Rahat_Broken\android] as hierarchies to watch
+Resolved plugin [id: 'org.gradle.toolchains.foojay-resolver-convention', version: '0.5.0']
+Projects loaded. Root project using build file 'C:\Users\Abhishek Giri\Desktop\Rahat_Broken\android\build.gradle'.
+Included projects: [root project 'Rahat', project ':app']
+Task path ':app:generateAutolinkingPackageList' matched project ':app'
+
+> Configure project :gradle-plugin
+Evaluating project ':gradle-plugin' using build file 'C:\Users\Abhishek Giri\Desktop\Rahat_Broken\node_modules\@react-native\gradle-plugin\build.gradle.kts'.
+Resolved plugin [id: 'org.jetbrains.kotlin.jvm', version: '2.1.20', apply: false]
+
+> Configure project :gradle-plugin:react-native-gradle-plugin
+Evaluating project ':gradle-plugin:react-native-gradle-plugin' using build file 'C:\Users\Abhishek Giri\Desktop\Rahat_Broken\node_modules\@react-native\gradle-plugin\react-native-gradle-plugin\build.gradle.kts'.
+Resolved plugin [id: 'org.jetbrains.kotlin.jvm', version: '2.1.20']
+Resolved plugin [id: 'java-gradle-plugin']
+Build 9e977708-5559-4c50-9365-de05d4c9fb99 is started
+Using Kotlin Gradle Plugin gradle85 variant
+kotlin scripting plugin: created the scripting discovery configuration: kotlinScriptDef
+kotlin scripting plugin: created the scripting discovery configuration: testKotlinScriptDef
+
+> Configure project :gradle-plugin:settings-plugin
+Evaluating project ':gradle-plugin:settings-plugin' using build file 'C:\Users\Abhishek Giri\Desktop\Rahat_Broken\node_modules\@react-native\gradle-plugin\settings-plugin\build.gradle.kts'.
+Resolved plugin [id: 'org.jetbrains.kotlin.jvm', version: '2.1.20']
+Resolved plugin [id: 'java-gradle-plugin']
+Using Kotlin Gradle Plugin gradle85 variant
+kotlin scripting plugin: created the scripting discovery configuration: kotlinScriptDef
+kotlin scripting plugin: created the scripting discovery configuration: testKotlinScriptDef
+
+> Configure project :gradle-plugin:shared
+Evaluating project ':gradle-plugin:shared' using build file 'C:\Users\Abhishek Giri\Desktop\Rahat_Broken\node_modules\@react-native\gradle-plugin\shared\build.gradle.kts'.
+Resolved plugin [id: 'org.jetbrains.kotlin.jvm', version: '2.1.20']
+Using Kotlin Gradle Plugin gradle85 variant
+kotlin scripting plugin: created the scripting discovery configuration: kotlinScriptDef
+kotlin scripting plugin: created the scripting discovery configuration: testKotlinScriptDef
+
+> Configure project :gradle-plugin:shared-testutil
+Evaluating project ':gradle-plugin:shared-testutil' using build file 'C:\Users\Abhishek Giri\Desktop\Rahat_Broken\node_modules\@react-native\gradle-plugin\shared-testutil\build.gradle.kts'.
+Resolved plugin [id: 'org.jetbrains.kotlin.jvm', version: '2.1.20']
+Using Kotlin Gradle Plugin gradle85 variant
+kotlin scripting plugin: created the scripting discovery configuration: kotlinScriptDef
+kotlin scripting plugin: created the scripting discovery configuration: testKotlinScriptDef
+Resolve mutations for :gradle-plugin:shared:checkKotlinGradlePluginConfigurationErrors (Thread[Execution worker Thread 2,5,main]) started.
+Resolve mutations for :gradle-plugin:react-native-gradle-plugin:checkKotlinGradlePluginConfigurationErrors (Thread[Execution worker,5,main]) started.
+:gradle-plugin:react-native-gradle-plugin:checkKotlinGradlePluginConfigurationErrors (Thread[Execution worker,5,main]) started.
+:gradle-plugin:shared:checkKotlinGradlePluginConfigurationErrors (Thread[Execution worker Thread 11,5,main]) started.
+
+> Task :gradle-plugin:react-native-gradle-plugin:checkKotlinGradlePluginConfigurationErrors SKIPPED
+Skipping task ':gradle-plugin:react-native-gradle-plugin:checkKotlinGradlePluginConfigurationErrors' as task onlyIf 'errorDiagnostics are present' is false.
+
+> Task :gradle-plugin:shared:checkKotlinGradlePluginConfigurationErrors SKIPPED
+Skipping task ':gradle-plugin:shared:checkKotlinGradlePluginConfigurationErrors' as task onlyIf 'errorDiagnostics are present' is false.
+Resolve mutations for :gradle-plugin:shared:compileKotlin (Thread[Execution worker Thread 11,5,main]) started.
+Resolve mutations for :gradle-plugin:react-native-gradle-plugin:pluginDescriptors (Thread[Execution worker,5,main]) started.
+:gradle-plugin:react-native-gradle-plugin:pluginDescriptors (Thread[Execution worker,5,main]) started.
+:gradle-plugin:shared:compileKotlin (Thread[Execution worker Thread 11,5,main]) started.
+
+> Task :gradle-plugin:react-native-gradle-plugin:pluginDescriptors UP-TO-DATE
+Caching disabled for task ':gradle-plugin:react-native-gradle-plugin:pluginDescriptors' because:
+  Build cache is disabled
+  Not worth caching
+Skipping task ':gradle-plugin:react-native-gradle-plugin:pluginDescriptors' as it is up-to-date.
+Resolve mutations for :gradle-plugin:react-native-gradle-plugin:processResources (Thread[Execution worker,5,main]) started.
+:gradle-plugin:react-native-gradle-plugin:processResources (Thread[Execution worker,5,main]) started.
+
+> Task :gradle-plugin:react-native-gradle-plugin:processResources UP-TO-DATE
+Caching disabled for task ':gradle-plugin:react-native-gradle-plugin:processResources' because:
+  Build cache is disabled
+  Not worth caching
+Skipping task ':gradle-plugin:react-native-gradle-plugin:processResources' as it is up-to-date.
+
+> Task :gradle-plugin:shared:compileKotlin UP-TO-DATE
+Caching disabled for task ':gradle-plugin:shared:compileKotlin' because:
+  Build cache is disabled
+Skipping task ':gradle-plugin:shared:compileKotlin' as it is up-to-date.
+Resolve mutations for :gradle-plugin:shared:compileJava (Thread[Execution worker Thread 11,5,main]) started.
+:gradle-plugin:shared:compileJava (Thread[Execution worker Thread 11,5,main]) started.
+
+> Task :gradle-plugin:shared:compileJava NO-SOURCE
+Skipping task ':gradle-plugin:shared:compileJava' as it has no source files and no previous output files.
+Resolve mutations for :gradle-plugin:shared:processResources (Thread[Execution worker Thread 11,5,main]) started.
+:gradle-plugin:shared:processResources (Thread[Execution worker Thread 11,5,main]) started.
+
+> Task :gradle-plugin:shared:processResources NO-SOURCE
+Skipping task ':gradle-plugin:shared:processResources' as it has no source files and no previous output files.
+Resolve mutations for :gradle-plugin:shared:classes (Thread[Execution worker Thread 11,5,main]) started.
+:gradle-plugin:shared:classes (Thread[Execution worker Thread 15,5,main]) started.
+
+> Task :gradle-plugin:shared:classes UP-TO-DATE
+Skipping task ':gradle-plugin:shared:classes' as it has no actions.
+Resolve mutations for :gradle-plugin:shared:jar (Thread[Execution worker Thread 15,5,main]) started.
+:gradle-plugin:shared:jar (Thread[Execution worker Thread 15,5,main]) started.
+
+> Task :gradle-plugin:shared:jar UP-TO-DATE
+Caching disabled for task ':gradle-plugin:shared:jar' because:
+  Build cache is disabled
+  Not worth caching
+Skipping task ':gradle-plugin:shared:jar' as it is up-to-date.
+work action resolve shared.jar (project :gradle-plugin:shared) (Thread[Execution worker Thread 15,5,main]) started.
+Resolve mutations for :gradle-plugin:react-native-gradle-plugin:compileKotlin (Thread[Execution worker Thread 15,5,main]) started.
+:gradle-plugin:react-native-gradle-plugin:compileKotlin (Thread[Execution worker Thread 15,5,main]) started.
+
+> Task :gradle-plugin:react-native-gradle-plugin:compileKotlin UP-TO-DATE
+Caching disabled for task ':gradle-plugin:react-native-gradle-plugin:compileKotlin' because:
+  Build cache is disabled
+Skipping task ':gradle-plugin:react-native-gradle-plugin:compileKotlin' as it is up-to-date.
+Resolve mutations for :gradle-plugin:react-native-gradle-plugin:compileJava (Thread[Execution worker Thread 15,5,main]) started.
+:gradle-plugin:react-native-gradle-plugin:compileJava (Thread[Execution worker Thread 15,5,main]) started.
+
+> Task :gradle-plugin:react-native-gradle-plugin:compileJava NO-SOURCE
+Skipping task ':gradle-plugin:react-native-gradle-plugin:compileJava' as it has no source files and no previous output files.
+Resolve mutations for :gradle-plugin:react-native-gradle-plugin:classes (Thread[Execution worker Thread 15,5,main]) started.
+:gradle-plugin:react-native-gradle-plugin:classes (Thread[Execution worker Thread 9,5,main]) started.
+
+> Task :gradle-plugin:react-native-gradle-plugin:classes UP-TO-DATE
+Skipping task ':gradle-plugin:react-native-gradle-plugin:classes' as it has no actions.
+Resolve mutations for :gradle-plugin:react-native-gradle-plugin:jar (Thread[Execution worker,5,main]) started.
+:gradle-plugin:react-native-gradle-plugin:jar (Thread[Execution worker,5,main]) started.
+
+> Task :gradle-plugin:react-native-gradle-plugin:jar UP-TO-DATE
+Caching disabled for task ':gradle-plugin:react-native-gradle-plugin:jar' because:
+  Build cache is disabled
+  Not worth caching
+Skipping task ':gradle-plugin:react-native-gradle-plugin:jar' as it is up-to-date.
+
+> Configure project :
+Evaluating root project 'Rahat' using build file 'C:\Users\Abhishek Giri\Desktop\Rahat_Broken\android\build.gradle'.
+Build was configured to prefer settings repositories over project repositories but repository 'maven' was added by build file 'build.gradle'
+Build was configured to prefer settings repositories over project repositories but repository 'maven2' was added by build file 'build.gradle'
+Build was configured to prefer settings repositories over project repositories but repository 'Google' was added by build file 'build.gradle'
+Build was configured to prefer settings repositories over project repositories but repository 'MavenRepo' was added by build file 'build.gradle'
+Build was configured to prefer settings repositories over project repositories but repository 'maven' was added by build file 'build.gradle'
+Build was configured to prefer settings repositories over project repositories but repository 'maven2' was added by build file 'build.gradle'
+Build was configured to prefer settings repositories over project repositories but repository 'Google' was added by build file 'build.gradle'
+Build was configured to prefer settings repositories over project repositories but repository 'MavenRepo' was added by build file 'build.gradle'
+
+> Configure project :app
+Evaluating project ':app' using build file 'C:\Users\Abhishek Giri\Desktop\Rahat_Broken\android\app\build.gradle'.
+Using default execution profile
+Build 7d38c006-2ca8-4aa0-89ae-fe358e2e533e is started
+Using Kotlin Gradle Plugin gradle85 variant
+Build was configured to prefer settings repositories over project repositories but repository 'maven3' was added by plugin 'com.facebook.react'
+Build was configured to prefer settings repositories over project repositories but repository 'MavenRepo2' was added by plugin 'com.facebook.react'
+Build was configured to prefer settings repositories over project repositories but repository 'Google2' was added by plugin 'com.facebook.react'
+Build was configured to prefer settings repositories over project repositories but repository 'maven4' was added by plugin 'com.facebook.react'
+Build was configured to prefer settings repositories over project repositories but repository 'maven3' was added by plugin 'com.facebook.react'
+Build was configured to prefer settings repositories over project repositories but repository 'MavenRepo2' was added by plugin 'com.facebook.react'
+Build was configured to prefer settings repositories over project repositories but repository 'Google2' was added by plugin 'com.facebook.react'
+Build was configured to prefer settings repositories over project repositories but repository 'maven4' was added by plugin 'com.facebook.react'
+Task name matched 'generateAutolinkingPackageList'
+Selected primary task 'generateAutolinkingPackageList' from project :app
+All projects evaluated.
+Tasks to be executed: [task ':app:generateAutolinkingPackageList']
+Tasks that were excluded: []
+Resolve mutations for :app:generateAutolinkingPackageList (Thread[Execution worker Thread 15,5,main]) started.
+:app:generateAutolinkingPackageList (Thread[Execution worker Thread 15,5,main]) started.
+
+> Task :app:generateAutolinkingPackageList FAILED
+Build 9e977708-5559-4c50-9365-de05d4c9fb99 is closed
+Build 7d38c006-2ca8-4aa0-89ae-fe358e2e533e is closed
+
+[Incubating] Problems report is available at: file:///C:/Users/Abhishek%20Giri/Desktop/Rahat_Broken/android/build/reports/problems/problems-report.html
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+A problem was found with the configuration of task ':app:generateAutolinkingPackageList' (type 'GeneratePackageListTask').
+  - In plugin 'com.facebook.react' type 'com.facebook.react.tasks.GeneratePackageListTask' property 'autolinkInputFile' specifies file 'C:\Users\Abhishek Giri\Desktop\Rahat_Broken\android\build\generated\autolinking\autolinking.json' which doesn't exist.
+    
+    Reason: An input file was expected to be present but it doesn't exist.
+    
+    Possible solutions:
+      1. Make sure the file exists before the task is called.
+      2. Make sure that the task which produces the file is declared as an input.
+    
+    For more information, please refer to https://docs.gradle.org/9.2.1/userguide/validation_problems.html#input_file_does_not_exist in the Gradle documentation.
+
+* Try:
+> Make sure the file exists before the task is called
+> Make sure that the task which produces the file is declared as an input
+> Run with --scan to generate a Build Scan (powered by Develocity).
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 10.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+For more on this, please refer to https://docs.gradle.org/9.2.1/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+
+BUILD FAILED in 2s
+7 actionable tasks: 1 executed, 6 up-to-date
+Watched directory hierarchies: [C:\Users\Abhishek Giri\Desktop\Rahat_Broken\node_modules\@react-native\gradle-plugin]
