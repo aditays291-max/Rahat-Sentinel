@@ -1,4 +1,4 @@
-package com.rahat.app.ui.auth
+package com.rahat.ui.auth
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.*

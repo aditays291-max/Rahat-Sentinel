@@ -1,8 +1,8 @@
-package com.rahat.app.ui.sos
+package com.rahat.ui.sos
 
 import android.content.Context
 import android.content.Intent
-import com.rahat.app.MainActivity
+import com.rahat.MainActivity
 
 object SosTrigger {
 

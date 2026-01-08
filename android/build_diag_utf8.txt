@@ -1,0 +1,68 @@
+﻿Configuration on demand is an incubating feature.
+> Task :app:preBuild UP-TO-DATE
+> Task :app:preDebugBuild UP-TO-DATE
+> Task :app:mergeDebugNativeDebugMetadata NO-SOURCE
+> Task :app:checkKotlinGradlePluginConfigurationErrors
+> Task :app:checkDebugAarMetadata UP-TO-DATE
+> Task :app:generateDebugResValues UP-TO-DATE
+> Task :app:processDebugGoogleServices UP-TO-DATE
+> Task :app:mapDebugSourceSetPaths UP-TO-DATE
+> Task :app:generateDebugResources UP-TO-DATE
+> Task :app:mergeDebugResources UP-TO-DATE
+> Task :app:packageDebugResources UP-TO-DATE
+> Task :app:parseDebugLocalResources UP-TO-DATE
+> Task :app:createDebugCompatibleScreenManifests UP-TO-DATE
+> Task :app:extractDeepLinksDebug UP-TO-DATE
+> Task :app:processDebugMainManifest UP-TO-DATE
+> Task :app:processDebugManifest UP-TO-DATE
+> Task :app:processDebugManifestForPackage UP-TO-DATE
+> Task :app:processDebugResources UP-TO-DATE
+> Task :app:javaPreCompileDebug UP-TO-DATE
+> Task :app:mergeDebugShaders UP-TO-DATE
+> Task :app:compileDebugShaders NO-SOURCE
+> Task :app:generateDebugAssets UP-TO-DATE
+> Task :app:mergeDebugAssets UP-TO-DATE
+> Task :app:compressDebugAssets UP-TO-DATE
+> Task :app:checkDebugDuplicateClasses UP-TO-DATE
+> Task :app:desugarDebugFileDependencies UP-TO-DATE
+> Task :app:mergeExtDexDebug UP-TO-DATE
+> Task :app:mergeLibDexDebug UP-TO-DATE
+> Task :app:mergeDebugJniLibFolders UP-TO-DATE
+> Task :app:mergeDebugNativeLibs NO-SOURCE
+> Task :app:stripDebugDebugSymbols NO-SOURCE
+> Task :app:validateSigningDebug UP-TO-DATE
+> Task :app:writeDebugAppMetadata UP-TO-DATE
+> Task :app:writeDebugSigningConfigVersions UP-TO-DATE
+> Task :app:kaptGenerateStubsDebugKotlin
+> Task :app:kaptDebugKotlin UP-TO-DATE
+
+> Task :app:compileDebugKotlin
+w: file:///C:/Users/Abhishek%20Giri/Desktop/Rahat_Broken/android/app/src/main/java/com/rahat/service/ble/PeerManager.kt:111:9 Parameter 'isMoving' is never used
+w: file:///C:/Users/Abhishek%20Giri/Desktop/Rahat_Broken/android/app/src/main/java/com/rahat/ui/home/HomeMapScreen.kt:68:5 Parameter 'uiState' is never used
+w: file:///C:/Users/Abhishek%20Giri/Desktop/Rahat_Broken/android/app/src/main/java/com/rahat/ui/home/HomeMapScreen.kt:373:45 Variable 'down' is never used
+w: file:///C:/Users/Abhishek%20Giri/Desktop/Rahat_Broken/android/app/src/main/java/com/rahat/ui/home/HomeMapScreen.kt:472:5 Parameter 'acknowledgedAlertIds' is never used
+w: file:///C:/Users/Abhishek%20Giri/Desktop/Rahat_Broken/android/app/src/main/java/com/rahat/ui/home/HomeMapScreen.kt:473:5 Parameter 'onAlertAck' is never used
+w: file:///C:/Users/Abhishek%20Giri/Desktop/Rahat_Broken/android/app/src/main/java/com/rahat/ui/home/HomeMapScreen.kt:485:13 'setBuiltInZoomControls(Boolean): Unit' is deprecated. Deprecated in Java
+w: file:///C:/Users/Abhishek%20Giri/Desktop/Rahat_Broken/android/app/src/main/java/com/rahat/ui/nearby/NearbyHelpScreen.kt:28:5 Parameter 'userLat' is never used
+w: file:///C:/Users/Abhishek%20Giri/Desktop/Rahat_Broken/android/app/src/main/java/com/rahat/ui/nearby/NearbyHelpScreen.kt:29:5 Parameter 'userLng' is never used
+w: file:///C:/Users/Abhishek%20Giri/Desktop/Rahat_Broken/android/app/src/main/java/com/rahat/ui/nearby/NearbyHelpScreen.kt:33:9 Variable 'scope' is never used
+w: file:///C:/Users/Abhishek%20Giri/Desktop/Rahat_Broken/android/app/src/main/java/com/rahat/ui/nearby/NearbyHelpScreen.kt:54:13 Variable 'allGranted' is never used
+w: file:///C:/Users/Abhishek%20Giri/Desktop/Rahat_Broken/android/app/src/main/java/com/rahat/RahatApp.kt:42:9 Variable 'notificationService' is never used
+w: file:///C:/Users/Abhishek%20Giri/Desktop/Rahat_Broken/android/app/src/main/java/com/rahat/RahatApp.kt:47:9 Variable 'database' is never used
+w: file:///C:/Users/Abhishek%20Giri/Desktop/Rahat_Broken/android/app/src/main/java/com/rahat/RahatApp.kt:58:9 Variable 'alerts' is never used
+w: file:///C:/Users/Abhishek%20Giri/Desktop/Rahat_Broken/android/app/src/main/java/com/rahat/RahatApp.kt:149:49 'when' is exhaustive so 'else' is redundant here
+w: file:///C:/Users/Abhishek%20Giri/Desktop/Rahat_Broken/android/app/src/main/java/com/rahat/RahatApp.kt:195:29 'when' is exhaustive so 'else' is redundant here
+w: file:///C:/Users/Abhishek%20Giri/Desktop/Rahat_Broken/android/app/src/main/java/com/rahat/RahatApp.kt:199:17 'when' is exhaustive so 'else' is redundant here
+w: file:///C:/Users/Abhishek%20Giri/Desktop/Rahat_Broken/android/app/src/main/java/com/rahat/service/nearby/NearbyManager.kt:46:43 Parameter 'name' is never used
+
+> Task :app:compileDebugJavaWithJavac UP-TO-DATE
+> Task :app:processDebugJavaRes UP-TO-DATE
+> Task :app:mergeDebugJavaResource UP-TO-DATE
+> Task :app:dexBuilderDebug
+> Task :app:mergeProjectDexDebug
+> Task :app:packageDebug
+> Task :app:createDebugApkListingFileRedirect UP-TO-DATE
+> Task :app:assembleDebug
+
+BUILD SUCCESSFUL in 10s
+37 actionable tasks: 6 executed, 31 up-to-date

@@ -1,11 +1,11 @@
-package com.rahat.app.ui.sos
+package com.rahat.ui.sos
 
 import android.accessibilityservice.AccessibilityService
 import android.content.Intent
 import android.os.Handler
 import android.os.Looper
 import android.view.accessibility.AccessibilityEvent
-import com.rahat.app.MainActivity
+import com.rahat.MainActivity
 
 class PowerButtonSosService : AccessibilityService() {
 

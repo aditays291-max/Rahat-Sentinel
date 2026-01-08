@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "590260671792",
+    "project_id": "rahat-9569c",
+    "storage_bucket": "rahat-9569c.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:590260671792:android:25f6a0aeaa64be5f34e4f5",
+        "android_client_info": {
+          "package_name": "com.rahat"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB-djdx_1zgJzKnMa_yePYsAisskBhNu3A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,4 +1,4 @@
-package com.rahat.app.ui.splash
+package com.rahat.ui.splash
 
 import androidx.compose.animation.core.Animatable
 import androidx.compose.animation.core.tween
@@ -12,7 +12,9 @@ import androidx.compose.ui.draw.scale
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.unit.dp
-import com.rahat.app.R
+import com.rahat.R
+import androidx.compose.material3.MaterialTheme
+import androidx.compose.material3.Text
 import kotlinx.coroutines.delay
 
 
@@ -40,15 +42,20 @@ fun SplashScreen(
     Box(
         modifier = Modifier
             .fillMaxSize()
-            .background(Color.White),
+            .background(Color.White), // White background
         contentAlignment = Alignment.Center
     ) {
-        Image(
-            painter = painterResource(id = R.drawable.ic_launcher_foreground),
-            contentDescription = "Rahat Logo",
-            modifier = Modifier
-                .size(180.dp)
-                .scale(scale.value)
-        )
+        Column(horizontalAlignment = Alignment.CenterHorizontally) {
+            Image(
+                painter = painterResource(id = R.drawable.rahat_logo),
+                contentDescription = "Rahat Logo",
+                modifier = Modifier
+                    .size(300.dp)
+                    .scale(scale.value)
+            )
+            // Removed Text "RAHAT" if the logo already contains the text or user wants "only the logo in the middle"
+            // The prompt said: "only the logo in the middle(the blue part)shows".
+            // If the jpg has white background, it will blend.
+        }
     }
 }

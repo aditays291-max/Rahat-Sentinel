@@ -1,29 +1,14 @@
-pluginManagement {
-    includeBuild("C:/Users/Abhishek Giri/Desktop/Rahat_Broken/node_modules/@react-native/gradle-plugin")
+rootProject.name = 'Rahat'
+
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.PREFER_SETTINGS)
     repositories {
         google()
         mavenCentral()
-        gradlePluginPortal()
+        maven { url 'https://pkgs.dev.azure.com/MicrosoftDeviceSDK/DuoSDK-Public/_packaging/Duo-SDK-Feed/maven/v1' }
     }
 }
 
-plugins {
-    id("com.facebook.react.settings")
-}
-
-includeBuild("C:/Users/Abhishek Giri/Desktop/Rahat_Broken/node_modules/@react-native/gradle-plugin") {
-    dependencySubstitution {
-        substitute(module("com.facebook.react:react-native-gradle-plugin"))
-            .using(project(":react-native-gradle-plugin"))
-    }
-}
-
-def reactSettings = extensions.findByType(com.facebook.react.ReactSettingsExtension.class)
-if (reactSettings != null) {
-    reactSettings.autolinkLibrariesFromCommand()
-} else {
-    println "ReactSettingsExtension not found!"
-}
-
+include ':app'
 rootProject.name = "Rahat"
 include(":app")

@@ -1,4 +1,4 @@
-package com.rahat.app.ui.sos
+package com.rahat.ui.sos
 
 import androidx.compose.foundation.layout.*
 import androidx.compose.material3.*
